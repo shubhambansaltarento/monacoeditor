@@ -1,0 +1,68 @@
+{
+  "javascript": {
+    "name": "JavaScript",
+    "icon": "Code",
+    "isClientSide": true,
+    "monacoId": "javascript",
+    "extensions": [".js", ".jsx", ".mjs", ".es6"],
+    "aliases": ["JavaScript", "js", "javascript"],
+    "configFile": "javascript/language-configuration.json",
+    "snippetsFile": "javascript/snippets.json",
+    "defaultCodeFile": "javascript/default.js"
+  },
+  "typescript": {
+    "name": "TypeScript",
+    "icon": "Code",
+    "isClientSide": true,
+    "monacoId": "typescript",
+    "extensions": [".ts", ".tsx"],
+    "aliases": ["TypeScript", "ts", "typescript"],
+    "configFile": "typescript/language-configuration.json",
+    "snippetsFile": "typescript/snippets.json",
+    "defaultCodeFile": "typescript/default.ts"
+  },
+  "python": {
+    "name": "Python",
+    "icon": "FileText",
+    "isClientSide": false,
+    "monacoId": "python",
+    "extensions": [".py", ".pyi", ".pyc", ".pyd", ".pyo", ".pyw", ".pyz"],
+    "aliases": ["Python", "py", "python"],
+    "configFile": "python/language-configuration.json",
+    "snippetsFile": "python/snippets.json",
+    "defaultCodeFile": "python/default.py"
+  },
+  "java": {
+    "name": "Java",
+    "icon": "Code",
+    "isClientSide": false,
+    "monacoId": "java",
+    "extensions": [".java"],
+    "aliases": ["Java", "java"],
+    "configFile": "java/language-configuration.json",
+    "snippetsFile": "java/snippets.json",
+    "defaultCodeFile": "java/default.java"
+  },
+  "cpp": {
+    "name": "C++",
+    "icon": "Terminal",
+    "isClientSide": false,
+    "monacoId": "cpp",
+    "extensions": [".cpp", ".cc", ".cxx", ".hpp", ".hh", ".hxx"],
+    "aliases": ["C++", "Cpp", "cpp"],
+    "configFile": "cpp/language-configuration.json",
+    "snippetsFile": "cpp/snippets.json",
+    "defaultCodeFile": "cpp/default.cpp"
+  },
+  "sql": {
+    "name": "SQL",
+    "icon": "Database",
+    "isClientSide": false,
+    "monacoId": "sql",
+    "extensions": [".sql"],
+    "aliases": ["SQL", "sql"],
+    "configFile": "sql/language-configuration.json",
+    "snippetsFile": "sql/snippets.json",
+    "defaultCodeFile": "sql/default.sql"
+  }
+}

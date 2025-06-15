@@ -1,0 +1,72 @@
+[
+  {
+    "label": "print",
+    "kind": "Function",
+    "insertText": "print(${1:message})",
+    "documentation": "Print a message",
+    "category": "builtin"
+  },
+  {
+    "label": "def",
+    "kind": "Snippet",
+    "insertText": "def ${1:function_name}(${2:params}):\n\t${3:pass}",
+    "documentation": "Define a function",
+    "category": "functions"
+  },
+  {
+    "label": "class",
+    "kind": "Snippet",
+    "insertText": "class ${1:ClassName}:\n\tdef __init__(self${2:, args}):\n\t\t${3:pass}",
+    "documentation": "Define a class",
+    "category": "classes"
+  },
+  {
+    "label": "if",
+    "kind": "Snippet",
+    "insertText": "if ${1:condition}:\n\t${2:pass}",
+    "documentation": "If statement",
+    "category": "control"
+  },
+  {
+    "label": "for",
+    "kind": "Snippet",
+    "insertText": "for ${1:item} in ${2:iterable}:\n\t${3:pass}",
+    "documentation": "For loop",
+    "category": "control"
+  },
+  {
+    "label": "while",
+    "kind": "Snippet",
+    "insertText": "while ${1:condition}:\n\t${2:pass}",
+    "documentation": "While loop",
+    "category": "control"
+  },
+  {
+    "label": "try-except",
+    "kind": "Snippet",
+    "insertText": "try:\n\t${1:pass}\nexcept ${2:Exception} as ${3:e}:\n\t${4:pass}",
+    "documentation": "Try-except block",
+    "category": "error"
+  },
+  {
+    "label": "with",
+    "kind": "Snippet",
+    "insertText": "with ${1:expression} as ${2:variable}:\n\t${3:pass}",
+    "documentation": "With statement",
+    "category": "context"
+  },
+  {
+    "label": "list comprehension",
+    "kind": "Snippet",
+    "insertText": "[${1:expression} for ${2:item} in ${3:iterable}]",
+    "documentation": "List comprehension",
+    "category": "comprehension"
+  },
+  {
+    "label": "dict comprehension",
+    "kind": "Snippet",
+    "insertText": "{${1:key}: ${2:value} for ${3:item} in ${4:iterable}}",
+    "documentation": "Dictionary comprehension",
+    "category": "comprehension"
+  }
+]

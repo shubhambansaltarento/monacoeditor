@@ -1,0 +1,23 @@
+[
+  {
+    "label": "System.out.println",
+    "kind": "Function",
+    "insertText": "System.out.println(${1:message});",
+    "documentation": "Print a line to console",
+    "category": "io"
+  },
+  {
+    "label": "public static void main",
+    "kind": "Snippet",
+    "insertText": "public static void main(String[] args) {\n\t${1:// code}\n}",
+    "documentation": "Main method",
+    "category": "main"
+  },
+  {
+    "label": "class",
+    "kind": "Snippet",
+    "insertText": "public class ${1:ClassName} {\n\t${2:// class body}\n}",
+    "documentation": "Class definition",
+    "category": "classes"
+  }
+]

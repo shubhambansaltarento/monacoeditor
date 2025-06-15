@@ -1,0 +1,72 @@
+[
+  {
+    "label": "console.log",
+    "kind": "Function",
+    "insertText": "console.log(${1:message});",
+    "documentation": "Outputs a message to the web console",
+    "category": "console"
+  },
+  {
+    "label": "function",
+    "kind": "Snippet",
+    "insertText": "function ${1:name}(${2:params}) {\n\t${3:// function body}\n\treturn ${4:value};\n}",
+    "documentation": "Creates a function declaration",
+    "category": "functions"
+  },
+  {
+    "label": "arrow function",
+    "kind": "Snippet",
+    "insertText": "const ${1:name} = (${2:params}) => {\n\t${3:// function body}\n\treturn ${4:value};\n};",
+    "documentation": "Creates an arrow function",
+    "category": "functions"
+  },
+  {
+    "label": "async function",
+    "kind": "Snippet",
+    "insertText": "async function ${1:name}(${2:params}) {\n\ttry {\n\t\t${3:// async code}\n\t\treturn ${4:result};\n\t} catch (error) {\n\t\tconsole.error(error);\n\t}\n}",
+    "documentation": "Creates an async function with error handling",
+    "category": "functions"
+  },
+  {
+    "label": "if statement",
+    "kind": "Snippet",
+    "insertText": "if (${1:condition}) {\n\t${2:// code}\n}",
+    "documentation": "If statement",
+    "category": "control"
+  },
+  {
+    "label": "for loop",
+    "kind": "Snippet",
+    "insertText": "for (let ${1:i} = 0; ${1:i} < ${2:length}; ${1:i}++) {\n\t${3:// code}\n}",
+    "documentation": "For loop",
+    "category": "control"
+  },
+  {
+    "label": "forEach",
+    "kind": "Snippet",
+    "insertText": "${1:array}.forEach((${2:item}) => {\n\t${3:// code}\n});",
+    "documentation": "Array forEach method",
+    "category": "array"
+  },
+  {
+    "label": "map",
+    "kind": "Snippet",
+    "insertText": "${1:array}.map((${2:item}) => {\n\treturn ${3:item};\n});",
+    "documentation": "Array map method",
+    "category": "array"
+  },
+  {
+    "label": "filter",
+    "kind": "Snippet",
+    "insertText": "${1:array}.filter((${2:item}) => {\n\treturn ${3:condition};\n});",
+    "documentation": "Array filter method",
+    "category": "array"
+  },
+  {
+    "label": "try-catch",
+    "kind": "Snippet",
+    "insertText": "try {\n\t${1:// code}\n} catch (${2:error}) {\n\tconsole.error(${2:error});\n}",
+    "documentation": "Try-catch block",
+    "category": "error"
+  }
+]

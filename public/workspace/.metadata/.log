@@ -1,0 +1,915 @@
+!SESSION 2025-06-12 13:22:47.962 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:48.928
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.096
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.125
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.127
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.128
+!MESSAGE No workspace folders or root uri was defined. Falling back on /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.137
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.138
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.145
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.148
+!MESSAGE Wait for AutoBuildOffJob end 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.149
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.150
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.151
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.152
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:49.176
+!MESSAGE Started org.eclipse.buildship.core 24ms
+!SESSION 2025-06-12 13:22:51.035 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:51.788
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:22:53.687 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:54.430
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:22:56.414 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:57.179
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:22:59.193 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:22:59.919
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:01.863 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:02.609
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:04.611 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:05.341
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:05.460
+!MESSAGE Main thread is waiting
+!SESSION 2025-06-12 13:23:07.277 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:07.991
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:08.113
+!MESSAGE Main thread is waiting
+!SESSION 2025-06-12 13:23:10.097 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:10.892
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:13.017 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:13.794
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:16.427 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:17.200
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:27.664 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:28.435
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:30.726 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:31.623
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:33.530 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:34.308
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:36.232 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:37.018
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:38.949 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:39.689
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:39.812
+!MESSAGE Main thread is waiting
+!SESSION 2025-06-12 13:23:41.810 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:42.634
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:44.940 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:45.910
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:48.847 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:49.803
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:51.904 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:52.803
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:54.719 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:55.593
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:23:57.581 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:23:58.444
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:01.006 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:01.840
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:04.028 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:04.825
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:06.973 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:07.917
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:10.005 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:10.866
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:12.794 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:13.749
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:15.626 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:16.455
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:18.354 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:19.160
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:21.024 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:21.805
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:23.974 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:25.024
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:26.916 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:27.689
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:29.641 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:30.554
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:32.511 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:33.365
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:35.450 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:36.319
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:36.444
+!MESSAGE Main thread is waiting
+!SESSION 2025-06-12 13:24:39.029 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:40.627
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:42.637 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:43.475
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:45.380 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:46.161
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:48.093 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:48.825
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:50.892 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:51.739
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:51.850
+!MESSAGE Main thread is waiting
+!SESSION 2025-06-12 13:24:54.010 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:54.784
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:24:57.039 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:24:57.958
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:00.082 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:01.585
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:30.260 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:31.380
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:33.233 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:34.188
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:36.076 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:36.901
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:38.912 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:39.812
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:41.725 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:42.643
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:44.579 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:45.414
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:47.596 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:48.449
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:50.476 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:51.247
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:51.373
+!MESSAGE Main thread is waiting
+!SESSION 2025-06-12 13:25:53.264 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:54.016
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:56.045 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:56.813
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:25:58.815 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:25:59.636
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:01.644 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:02.499
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:04.385 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:05.267
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:07.269 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:08.154
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:11.058 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:11.957
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:14.023 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:14.803
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:17.096 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:18.020
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:22.097 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:23.079
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:26.307 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:27.304
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:31.153 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:32.086
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:35.083 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:36.022
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:38.916 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:40.250
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:42.248 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:42.995
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:45.051 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:45.977
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:48.115 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:49.200
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:51.214 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:51.955
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:53.933 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:54.744
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:56.729 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:26:57.619
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:26:59.899 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:27:01.098
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 13:27:03.656 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 13:27:04.767
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:18:35.471 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:18:36.606
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:18:38.489 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:18:39.225
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:18:41.127 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:18:41.928
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:18:43.821 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:18:44.633
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:18:46.609 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:18:47.618
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:18:49.520 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:18:50.260
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:24:47.240 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:24:48.308
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:24:50.148 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:24:50.885
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:24:52.742 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:24:53.470
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:24:55.411 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:24:56.163
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:24:58.062 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:24:58.812
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:24:58.941
+!MESSAGE Main thread is waiting
+!SESSION 2025-06-12 15:25:00.761 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:01.537
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:03.510 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:04.396
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:06.351 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:07.104
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:09.061 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:09.939
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:11.872 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:12.605
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:14.497 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:15.243
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:17.233 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:17.969
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:19.860 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:20.613
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:22.529 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:23.263
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:25.171 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:25.898
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+!SESSION 2025-06-12 15:25:27.759 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.15
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/shubhambansal/Documents/Code/react/monaco-code-compiler/public/workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-06-12 15:25:28.497
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
