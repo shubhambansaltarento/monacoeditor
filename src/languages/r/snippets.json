@@ -1,0 +1,268 @@
+[
+  {
+    "label": "library",
+    "kind": "Function",
+    "insertText": "library(${1:package})",
+    "documentation": "Load R package",
+    "category": "packages"
+  },
+  {
+    "label": "require",
+    "kind": "Function",
+    "insertText": "require(${1:package})",
+    "documentation": "Load R package with error handling",
+    "category": "packages"
+  },
+  {
+    "label": "install.packages",
+    "kind": "Function",
+    "insertText": "install.packages(\"${1:package}\")",
+    "documentation": "Install R package",
+    "category": "packages"
+  },
+  {
+    "label": "function definition",
+    "kind": "Snippet",
+    "insertText": "${1:function_name} <- function(${2:parameters}) {\n\t${3:// function body}\n\treturn(${4:result})\n}",
+    "documentation": "Function definition",
+    "category": "functions"
+  },
+  {
+    "label": "for loop",
+    "kind": "Snippet",
+    "insertText": "for (${1:i} in ${2:1:10}) {\n\t${3:// loop body}\n}",
+    "documentation": "For loop",
+    "category": "control"
+  },
+  {
+    "label": "while loop",
+    "kind": "Snippet",
+    "insertText": "while (${1:condition}) {\n\t${2:// loop body}\n}",
+    "documentation": "While loop",
+    "category": "control"
+  },
+  {
+    "label": "if statement",
+    "kind": "Snippet",
+    "insertText": "if (${1:condition}) {\n\t${2:// code}\n}",
+    "documentation": "If statement",
+    "category": "control"
+  },
+  {
+    "label": "if-else statement",
+    "kind": "Snippet",
+    "insertText": "if (${1:condition}) {\n\t${2:// if code}\n} else {\n\t${3:// else code}\n}",
+    "documentation": "If-else statement",
+    "category": "control"
+  },
+  {
+    "label": "ifelse function",
+    "kind": "Function",
+    "insertText": "ifelse(${1:condition}, ${2:yes}, ${3:no})",
+    "documentation": "Vectorized if-else function",
+    "category": "control"
+  },
+  {
+    "label": "data.frame",
+    "kind": "Function",
+    "insertText": "${1:df} <- data.frame(\n\t${2:col1} = c(${3:values}),\n\t${4:col2} = c(${5:values})\n)",
+    "documentation": "Create data frame",
+    "category": "data"
+  },
+  {
+    "label": "vector",
+    "kind": "Function",
+    "insertText": "${1:vector} <- c(${2:values})",
+    "documentation": "Create vector",
+    "category": "data"
+  },
+  {
+    "label": "list",
+    "kind": "Function",
+    "insertText": "${1:list} <- list(\n\t${2:name1} = ${3:value1},\n\t${4:name2} = ${5:value2}\n)",
+    "documentation": "Create list",
+    "category": "data"
+  },
+  {
+    "label": "matrix",
+    "kind": "Function",
+    "insertText": "${1:matrix} <- matrix(${2:data}, nrow = ${3:rows}, ncol = ${4:cols})",
+    "documentation": "Create matrix",
+    "category": "data"
+  },
+  {
+    "label": "plot",
+    "kind": "Function",
+    "insertText": "plot(${1:x}, ${2:y}, main = \"${3:Title}\", xlab = \"${4:X Label}\", ylab = \"${5:Y Label}\")",
+    "documentation": "Basic plot",
+    "category": "plotting"
+  },
+  {
+    "label": "ggplot",
+    "kind": "Function",
+    "insertText": "ggplot(${1:data}, aes(x = ${2:x}, y = ${3:y})) +\n\tgeom_${4:point}()",
+    "documentation": "ggplot2 basic plot",
+    "category": "plotting"
+  },
+  {
+    "label": "histogram",
+    "kind": "Function",
+    "insertText": "hist(${1:data}, main = \"${2:Title}\", xlab = \"${3:X Label}\")",
+    "documentation": "Histogram plot",
+    "category": "plotting"
+  },
+  {
+    "label": "boxplot",
+    "kind": "Function",
+    "insertText": "boxplot(${1:data}, main = \"${2:Title}\", ylab = \"${3:Y Label}\")",
+    "documentation": "Box plot",
+    "category": "plotting"
+  },
+  {
+    "label": "summary",
+    "kind": "Function",
+    "insertText": "summary(${1:data})",
+    "documentation": "Summary statistics",
+    "category": "statistics"
+  },
+  {
+    "label": "mean",
+    "kind": "Function",
+    "insertText": "mean(${1:data}, na.rm = TRUE)",
+    "documentation": "Calculate mean",
+    "category": "statistics"
+  },
+  {
+    "label": "median",
+    "kind": "Function",
+    "insertText": "median(${1:data}, na.rm = TRUE)",
+    "documentation": "Calculate median",
+    "category": "statistics"
+  },
+  {
+    "label": "sd",
+    "kind": "Function",
+    "insertText": "sd(${1:data}, na.rm = TRUE)",
+    "documentation": "Calculate standard deviation",
+    "category": "statistics"
+  },
+  {
+    "label": "cor",
+    "kind": "Function",
+    "insertText": "cor(${1:x}, ${2:y}, use = \"complete.obs\")",
+    "documentation": "Calculate correlation",
+    "category": "statistics"
+  },
+  {
+    "label": "read.csv",
+    "kind": "Function",
+    "insertText": "${1:data} <- read.csv(\"${2:file.csv}\", stringsAsFactors = FALSE)",
+    "documentation": "Read CSV file",
+    "category": "io"
+  },
+  {
+    "label": "write.csv",
+    "kind": "Function",
+    "insertText": "write.csv(${1:data}, \"${2:file.csv}\", row.names = FALSE)",
+    "documentation": "Write CSV file",
+    "category": "io"
+  },
+  {
+    "label": "read.table",
+    "kind": "Function",
+    "insertText": "${1:data} <- read.table(\"${2:file.txt}\", header = TRUE, sep = \"\\t\")",
+    "documentation": "Read table file",
+    "category": "io"
+  },
+  {
+    "label": "apply",
+    "kind": "Function",
+    "insertText": "apply(${1:data}, ${2:1}, ${3:function})",
+    "documentation": "Apply function over array margins",
+    "category": "apply"
+  },
+  {
+    "label": "lapply",
+    "kind": "Function",
+    "insertText": "lapply(${1:list}, ${2:function})",
+    "documentation": "Apply function over list",
+    "category": "apply"
+  },
+  {
+    "label": "sapply",
+    "kind": "Function",
+    "insertText": "sapply(${1:list}, ${2:function})",
+    "documentation": "Simplify apply over list",
+    "category": "apply"
+  },
+  {
+    "label": "mapply",
+    "kind": "Function",
+    "insertText": "mapply(${1:function}, ${2:list1}, ${3:list2})",
+    "documentation": "Multivariate apply",
+    "category": "apply"
+  },
+  {
+    "label": "subset",
+    "kind": "Function",
+    "insertText": "subset(${1:data}, ${2:condition})",
+    "documentation": "Subset data based on condition",
+    "category": "manipulation"
+  },
+  {
+    "label": "filter",
+    "kind": "Function",
+    "insertText": "filter(${1:data}, ${2:condition})",
+    "documentation": "Filter data (dplyr)",
+    "category": "manipulation"
+  },
+  {
+    "label": "select",
+    "kind": "Function",
+    "insertText": "select(${1:data}, ${2:columns})",
+    "documentation": "Select columns (dplyr)",
+    "category": "manipulation"
+  },
+  {
+    "label": "mutate",
+    "kind": "Function",
+    "insertText": "mutate(${1:data}, ${2:new_column} = ${3:expression})",
+    "documentation": "Create new column (dplyr)",
+    "category": "manipulation"
+  },
+  {
+    "label": "group_by",
+    "kind": "Function",
+    "insertText": "group_by(${1:data}, ${2:column})",
+    "documentation": "Group data (dplyr)",
+    "category": "manipulation"
+  },
+  {
+    "label": "summarise",
+    "kind": "Function",
+    "insertText": "summarise(${1:data}, ${2:stat} = ${3:function(column)})",
+    "documentation": "Summarise data (dplyr)",
+    "category": "manipulation"
+  },
+  {
+    "label": "pipe operator",
+    "kind": "Snippet",
+    "insertText": "${1:data} %>%\n\t${2:function}()",
+    "documentation": "Pipe operator for data manipulation",
+    "category": "manipulation"
+  },
+  {
+    "label": "linear model",
+    "kind": "Function",
+    "insertText": "${1:model} <- lm(${2:y} ~ ${3:x}, data = ${4:data})",
+    "documentation": "Linear regression model",
+    "category": "modeling"
+  },
+  {
+    "label": "variable assignment",
+    "kind": "Snippet",
+    "insertText": "${1:variable} <- ${2:value}",
+    "documentation": "Variable assignment",
+    "category": "variables"
+  }
+]

@@ -1,1 +1,541 @@
-{}
+[
+  {
+    "label": "SELECT",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table}\nWHERE ${3:condition};",
+    "documentation": "Basic SELECT statement",
+    "category": "queries"
+  },
+  {
+    "label": "SELECT *",
+    "kind": "Snippet",
+    "insertText": "SELECT *\nFROM ${1:table};",
+    "documentation": "Select all columns",
+    "category": "queries"
+  },
+  {
+    "label": "SELECT DISTINCT",
+    "kind": "Snippet",
+    "insertText": "SELECT DISTINCT ${1:column}\nFROM ${2:table};",
+    "documentation": "Select distinct values",
+    "category": "queries"
+  },
+  {
+    "label": "SELECT with JOIN",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:t1.column1, t2.column2}\nFROM ${2:table1} t1\nJOIN ${3:table2} t2 ON t1.${4:id} = t2.${5:foreign_id}\nWHERE ${6:condition};",
+    "documentation": "SELECT with JOIN",
+    "category": "queries"
+  },
+  {
+    "label": "LEFT JOIN",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1} t1\nLEFT JOIN ${3:table2} t2 ON t1.${4:id} = t2.${5:foreign_id};",
+    "documentation": "LEFT JOIN query",
+    "category": "joins"
+  },
+  {
+    "label": "RIGHT JOIN",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1} t1\nRIGHT JOIN ${3:table2} t2 ON t1.${4:id} = t2.${5:foreign_id};",
+    "documentation": "RIGHT JOIN query",
+    "category": "joins"
+  },
+  {
+    "label": "INNER JOIN",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1} t1\nINNER JOIN ${3:table2} t2 ON t1.${4:id} = t2.${5:foreign_id};",
+    "documentation": "INNER JOIN query",
+    "category": "joins"
+  },
+  {
+    "label": "FULL OUTER JOIN",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1} t1\nFULL OUTER JOIN ${3:table2} t2 ON t1.${4:id} = t2.${5:foreign_id};",
+    "documentation": "FULL OUTER JOIN query",
+    "category": "joins"
+  },
+  {
+    "label": "GROUP BY",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:column}, ${2:aggregate_function(column)}\nFROM ${3:table}\nGROUP BY ${1:column};",
+    "documentation": "GROUP BY clause",
+    "category": "aggregation"
+  },
+  {
+    "label": "GROUP BY with HAVING",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:column}, ${2:COUNT(*)}\nFROM ${3:table}\nGROUP BY ${1:column}\nHAVING ${2:COUNT(*)} > ${4:1};",
+    "documentation": "GROUP BY with HAVING clause",
+    "category": "aggregation"
+  },
+  {
+    "label": "ORDER BY",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table}\nORDER BY ${3:column} ${4:ASC};",
+    "documentation": "ORDER BY clause",
+    "category": "sorting"
+  },
+  {
+    "label": "ORDER BY multiple",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table}\nORDER BY ${3:column1} ${4:ASC}, ${5:column2} ${6:DESC};",
+    "documentation": "ORDER BY multiple columns",
+    "category": "sorting"
+  },
+  {
+    "label": "LIMIT",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table}\nLIMIT ${3:10};",
+    "documentation": "LIMIT clause",
+    "category": "limiting"
+  },
+  {
+    "label": "OFFSET",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table}\nLIMIT ${3:10} OFFSET ${4:20};",
+    "documentation": "LIMIT with OFFSET",
+    "category": "limiting"
+  },
+  {
+    "label": "INSERT",
+    "kind": "Snippet",
+    "insertText": "INSERT INTO ${1:table} (${2:column1, column2})\nVALUES (${3:value1, value2});",
+    "documentation": "INSERT statement",
+    "category": "dml"
+  },
+  {
+    "label": "INSERT multiple",
+    "kind": "Snippet",
+    "insertText": "INSERT INTO ${1:table} (${2:column1, column2})\nVALUES \n\t(${3:value1, value2}),\n\t(${4:value3, value4});",
+    "documentation": "INSERT multiple rows",
+    "category": "dml"
+  },
+  {
+    "label": "UPDATE",
+    "kind": "Snippet",
+    "insertText": "UPDATE ${1:table}\nSET ${2:column1} = ${3:value1},\n    ${4:column2} = ${5:value2}\nWHERE ${6:condition};",
+    "documentation": "UPDATE statement",
+    "category": "dml"
+  },
+  {
+    "label": "DELETE",
+    "kind": "Snippet",
+    "insertText": "DELETE FROM ${1:table}\nWHERE ${2:condition};",
+    "documentation": "DELETE statement",
+    "category": "dml"
+  },
+  {
+    "label": "CREATE TABLE",
+    "kind": "Snippet",
+    "insertText": "CREATE TABLE ${1:table_name} (\n\t${2:id} ${3:INT} ${4:PRIMARY KEY},\n\t${5:column1} ${6:VARCHAR(255)},\n\t${7:column2} ${8:INT}\n);",
+    "documentation": "CREATE TABLE statement",
+    "category": "ddl"
+  },
+  {
+    "label": "CREATE TABLE with constraints",
+    "kind": "Snippet",
+    "insertText": "CREATE TABLE ${1:table_name} (\n\t${2:id} ${3:INT} PRIMARY KEY AUTO_INCREMENT,\n\t${4:name} ${5:VARCHAR(255)} NOT NULL,\n\t${6:email} ${7:VARCHAR(255)} UNIQUE,\n\t${8:created_at} TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);",
+    "documentation": "CREATE TABLE with common constraints",
+    "category": "ddl"
+  },
+  {
+    "label": "ALTER TABLE ADD",
+    "kind": "Snippet",
+    "insertText": "ALTER TABLE ${1:table_name}\nADD COLUMN ${2:column_name} ${3:data_type};",
+    "documentation": "ALTER TABLE to add column",
+    "category": "ddl"
+  },
+  {
+    "label": "ALTER TABLE DROP",
+    "kind": "Snippet",
+    "insertText": "ALTER TABLE ${1:table_name}\nDROP COLUMN ${2:column_name};",
+    "documentation": "ALTER TABLE to drop column",
+    "category": "ddl"
+  },
+  {
+    "label": "ALTER TABLE MODIFY",
+    "kind": "Snippet",
+    "insertText": "ALTER TABLE ${1:table_name}\nMODIFY COLUMN ${2:column_name} ${3:new_data_type};",
+    "documentation": "ALTER TABLE to modify column",
+    "category": "ddl"
+  },
+  {
+    "label": "DROP TABLE",
+    "kind": "Snippet",
+    "insertText": "DROP TABLE ${1:table_name};",
+    "documentation": "DROP TABLE statement",
+    "category": "ddl"
+  },
+  {
+    "label": "CREATE INDEX",
+    "kind": "Snippet",
+    "insertText": "CREATE INDEX ${1:index_name}\nON ${2:table_name} (${3:column_name});",
+    "documentation": "CREATE INDEX statement",
+    "category": "indexes"
+  },
+  {
+    "label": "DROP INDEX",
+    "kind": "Snippet",
+    "insertText": "DROP INDEX ${1:index_name};",
+    "documentation": "DROP INDEX statement",
+    "category": "indexes"
+  },
+  {
+    "label": "FOREIGN KEY",
+    "kind": "Snippet",
+    "insertText": "ALTER TABLE ${1:table_name}\nADD CONSTRAINT ${2:fk_name}\nFOREIGN KEY (${3:column_name})\nREFERENCES ${4:parent_table}(${5:parent_column});",
+    "documentation": "Add foreign key constraint",
+    "category": "constraints"
+  },
+  {
+    "label": "PRIMARY KEY",
+    "kind": "Snippet",
+    "insertText": "ALTER TABLE ${1:table_name}\nADD CONSTRAINT ${2:pk_name}\nPRIMARY KEY (${3:column_name});",
+    "documentation": "Add primary key constraint",
+    "category": "constraints"
+  },
+  {
+    "label": "UNIQUE constraint",
+    "kind": "Snippet",
+    "insertText": "ALTER TABLE ${1:table_name}\nADD CONSTRAINT ${2:unique_name}\nUNIQUE (${3:column_name});",
+    "documentation": "Add unique constraint",
+    "category": "constraints"
+  },
+  {
+    "label": "CHECK constraint",
+    "kind": "Snippet",
+    "insertText": "ALTER TABLE ${1:table_name}\nADD CONSTRAINT ${2:check_name}\nCHECK (${3:condition});",
+    "documentation": "Add check constraint",
+    "category": "constraints"
+  },
+  {
+    "label": "WHERE IN",
+    "kind": "Snippet",
+    "insertText": "WHERE ${1:column} IN (${2:value1, value2, value3})",
+    "documentation": "WHERE clause with IN operator",
+    "category": "conditions"
+  },
+  {
+    "label": "WHERE BETWEEN",
+    "kind": "Snippet",
+    "insertText": "WHERE ${1:column} BETWEEN ${2:start_value} AND ${3:end_value}",
+    "documentation": "WHERE clause with BETWEEN operator",
+    "category": "conditions"
+  },
+  {
+    "label": "WHERE LIKE",
+    "kind": "Snippet",
+    "insertText": "WHERE ${1:column} LIKE '${2:%pattern%}'",
+    "documentation": "WHERE clause with LIKE operator",
+    "category": "conditions"
+  },
+  {
+    "label": "WHERE NOT NULL",
+    "kind": "Snippet",
+    "insertText": "WHERE ${1:column} IS NOT NULL",
+    "documentation": "WHERE clause checking for NOT NULL",
+    "category": "conditions"
+  },
+  {
+    "label": "WHERE NULL",
+    "kind": "Snippet",
+    "insertText": "WHERE ${1:column} IS NULL",
+    "documentation": "WHERE clause checking for NULL",
+    "category": "conditions"
+  },
+  {
+    "label": "SUBQUERY",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1}\nWHERE ${3:column} IN (\n\tSELECT ${4:column}\n\tFROM ${5:table2}\n\tWHERE ${6:condition}\n);",
+    "documentation": "Subquery in WHERE clause",
+    "category": "subqueries"
+  },
+  {
+    "label": "EXISTS subquery",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1} t1\nWHERE EXISTS (\n\tSELECT 1\n\tFROM ${3:table2} t2\n\tWHERE t2.${4:column} = t1.${5:column}\n);",
+    "documentation": "EXISTS subquery",
+    "category": "subqueries"
+  },
+  {
+    "label": "NOT EXISTS subquery",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1} t1\nWHERE NOT EXISTS (\n\tSELECT 1\n\tFROM ${3:table2} t2\n\tWHERE t2.${4:column} = t1.${5:column}\n);",
+    "documentation": "NOT EXISTS subquery",
+    "category": "subqueries"
+  },
+  {
+    "label": "UNION",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1}\nUNION\nSELECT ${1:columns}\nFROM ${3:table2};",
+    "documentation": "UNION of two SELECT statements",
+    "category": "set_operations"
+  },
+  {
+    "label": "UNION ALL",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1}\nUNION ALL\nSELECT ${1:columns}\nFROM ${3:table2};",
+    "documentation": "UNION ALL of two SELECT statements",
+    "category": "set_operations"
+  },
+  {
+    "label": "INTERSECT",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1}\nINTERSECT\nSELECT ${1:columns}\nFROM ${3:table2};",
+    "documentation": "INTERSECT of two SELECT statements",
+    "category": "set_operations"
+  },
+  {
+    "label": "EXCEPT",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns}\nFROM ${2:table1}\nEXCEPT\nSELECT ${1:columns}\nFROM ${3:table2};",
+    "documentation": "EXCEPT of two SELECT statements",
+    "category": "set_operations"
+  },
+  {
+    "label": "COUNT",
+    "kind": "Function",
+    "insertText": "COUNT(${1:column})",
+    "documentation": "Count aggregate function",
+    "category": "aggregation"
+  },
+  {
+    "label": "SUM",
+    "kind": "Function",
+    "insertText": "SUM(${1:column})",
+    "documentation": "Sum aggregate function",
+    "category": "aggregation"
+  },
+  {
+    "label": "AVG",
+    "kind": "Function",
+    "insertText": "AVG(${1:column})",
+    "documentation": "Average aggregate function",
+    "category": "aggregation"
+  },
+  {
+    "label": "MIN",
+    "kind": "Function",
+    "insertText": "MIN(${1:column})",
+    "documentation": "Minimum aggregate function",
+    "category": "aggregation"
+  },
+  {
+    "label": "MAX",
+    "kind": "Function",
+    "insertText": "MAX(${1:column})",
+    "documentation": "Maximum aggregate function",
+    "category": "aggregation"
+  },
+  {
+    "label": "CASE WHEN",
+    "kind": "Snippet",
+    "insertText": "CASE\n\tWHEN ${1:condition1} THEN ${2:result1}\n\tWHEN ${3:condition2} THEN ${4:result2}\n\tELSE ${5:default_result}\nEND",
+    "documentation": "CASE WHEN expression",
+    "category": "conditional"
+  },
+  {
+    "label": "CASE simple",
+    "kind": "Snippet",
+    "insertText": "CASE ${1:column}\n\tWHEN ${2:value1} THEN ${3:result1}\n\tWHEN ${4:value2} THEN ${5:result2}\n\tELSE ${6:default_result}\nEND",
+    "documentation": "Simple CASE expression",
+    "category": "conditional"
+  },
+  {
+    "label": "COALESCE",
+    "kind": "Function",
+    "insertText": "COALESCE(${1:column1}, ${2:column2}, ${3:default_value})",
+    "documentation": "COALESCE function for NULL handling",
+    "category": "functions"
+  },
+  {
+    "label": "CONCAT",
+    "kind": "Function",
+    "insertText": "CONCAT(${1:string1}, ${2:string2})",
+    "documentation": "Concatenate strings",
+    "category": "functions"
+  },
+  {
+    "label": "SUBSTRING",
+    "kind": "Function",
+    "insertText": "SUBSTRING(${1:string}, ${2:start}, ${3:length})",
+    "documentation": "Extract substring",
+    "category": "functions"
+  },
+  {
+    "label": "UPPER",
+    "kind": "Function",
+    "insertText": "UPPER(${1:string})",
+    "documentation": "Convert to uppercase",
+    "category": "functions"
+  },
+  {
+    "label": "LOWER",
+    "kind": "Function",
+    "insertText": "LOWER(${1:string})",
+    "documentation": "Convert to lowercase",
+    "category": "functions"
+  },
+  {
+    "label": "TRIM",
+    "kind": "Function",
+    "insertText": "TRIM(${1:string})",
+    "documentation": "Remove leading and trailing spaces",
+    "category": "functions"
+  },
+  {
+    "label": "LENGTH",
+    "kind": "Function",
+    "insertText": "LENGTH(${1:string})",
+    "documentation": "Get string length",
+    "category": "functions"
+  },
+  {
+    "label": "ROUND",
+    "kind": "Function",
+    "insertText": "ROUND(${1:number}, ${2:decimal_places})",
+    "documentation": "Round number to decimal places",
+    "category": "functions"
+  },
+  {
+    "label": "ABS",
+    "kind": "Function",
+    "insertText": "ABS(${1:number})",
+    "documentation": "Absolute value",
+    "category": "functions"
+  },
+  {
+    "label": "NOW",
+    "kind": "Function",
+    "insertText": "NOW()",
+    "documentation": "Current timestamp",
+    "category": "datetime"
+  },
+  {
+    "label": "CURDATE",
+    "kind": "Function",
+    "insertText": "CURDATE()",
+    "documentation": "Current date",
+    "category": "datetime"
+  },
+  {
+    "label": "DATE_FORMAT",
+    "kind": "Function",
+    "insertText": "DATE_FORMAT(${1:date}, '${2:%Y-%m-%d}')",
+    "documentation": "Format date",
+    "category": "datetime"
+  },
+  {
+    "label": "DATEDIFF",
+    "kind": "Function",
+    "insertText": "DATEDIFF(${1:date1}, ${2:date2})",
+    "documentation": "Difference between dates",
+    "category": "datetime"
+  },
+  {
+    "label": "WINDOW function",
+    "kind": "Snippet",
+    "insertText": "SELECT ${1:columns},\n\t${2:ROW_NUMBER()} OVER (\n\t\tPARTITION BY ${3:column}\n\t\tORDER BY ${4:column}\n\t) as ${5:row_num}\nFROM ${6:table};",
+    "documentation": "Window function with OVER clause",
+    "category": "window_functions"
+  },
+  {
+    "label": "ROW_NUMBER",
+    "kind": "Function",
+    "insertText": "ROW_NUMBER() OVER (ORDER BY ${1:column})",
+    "documentation": "Row number window function",
+    "category": "window_functions"
+  },
+  {
+    "label": "RANK",
+    "kind": "Function",
+    "insertText": "RANK() OVER (ORDER BY ${1:column})",
+    "documentation": "Rank window function",
+    "category": "window_functions"
+  },
+  {
+    "label": "DENSE_RANK",
+    "kind": "Function",
+    "insertText": "DENSE_RANK() OVER (ORDER BY ${1:column})",
+    "documentation": "Dense rank window function",
+    "category": "window_functions"
+  },
+  {
+    "label": "LAG",
+    "kind": "Function",
+    "insertText": "LAG(${1:column}, ${2:1}) OVER (ORDER BY ${3:column})",
+    "documentation": "LAG window function",
+    "category": "window_functions"
+  },
+  {
+    "label": "LEAD",
+    "kind": "Function",
+    "insertText": "LEAD(${1:column}, ${2:1}) OVER (ORDER BY ${3:column})",
+    "documentation": "LEAD window function",
+    "category": "window_functions"
+  },
+  {
+    "label": "CTE",
+    "kind": "Snippet",
+    "insertText": "WITH ${1:cte_name} AS (\n\tSELECT ${2:columns}\n\tFROM ${3:table}\n\tWHERE ${4:condition}\n)\nSELECT ${5:columns}\nFROM ${1:cte_name};",
+    "documentation": "Common Table Expression (CTE)",
+    "category": "cte"
+  },
+  {
+    "label": "Recursive CTE",
+    "kind": "Snippet",
+    "insertText": "WITH RECURSIVE ${1:cte_name} AS (\n\t-- Base case\n\tSELECT ${2:columns}\n\tFROM ${3:table}\n\tWHERE ${4:base_condition}\n\t\n\tUNION ALL\n\t\n\t-- Recursive case\n\tSELECT ${5:columns}\n\tFROM ${3:table} t\n\tJOIN ${1:cte_name} c ON ${6:join_condition}\n)\nSELECT * FROM ${1:cte_name};",
+    "documentation": "Recursive Common Table Expression",
+    "category": "cte"
+  },
+  {
+    "label": "VIEW",
+    "kind": "Snippet",
+    "insertText": "CREATE VIEW ${1:view_name} AS\nSELECT ${2:columns}\nFROM ${3:table}\nWHERE ${4:condition};",
+    "documentation": "Create view",
+    "category": "views"
+  },
+  {
+    "label": "DROP VIEW",
+    "kind": "Snippet",
+    "insertText": "DROP VIEW ${1:view_name};",
+    "documentation": "Drop view",
+    "category": "views"
+  },
+  {
+    "label": "STORED PROCEDURE",
+    "kind": "Snippet",
+    "insertText": "CREATE PROCEDURE ${1:procedure_name}(\n\tIN ${2:param1} ${3:data_type},\n\tOUT ${4:param2} ${5:data_type}\n)\nBEGIN\n\t${6:-- procedure body}\nEND;",
+    "documentation": "Create stored procedure",
+    "category": "procedures"
+  },
+  {
+    "label": "FUNCTION",
+    "kind": "Snippet",
+    "insertText": "CREATE FUNCTION ${1:function_name}(${2:param} ${3:data_type})\nRETURNS ${4:return_type}\nBEGIN\n\t${5:-- function body}\n\tRETURN ${6:value};\nEND;",
+    "documentation": "Create function",
+    "category": "functions"
+  },
+  {
+    "label": "TRIGGER",
+    "kind": "Snippet",
+    "insertText": "CREATE TRIGGER ${1:trigger_name}\n${2:BEFORE} ${3:INSERT} ON ${4:table_name}\nFOR EACH ROW\nBEGIN\n\t${5:-- trigger body}\nEND;",
+    "documentation": "Create trigger",
+    "category": "triggers"
+  },
+  {
+    "label": "TRANSACTION",
+    "kind": "Snippet",
+    "insertText": "BEGIN TRANSACTION;\n\t${1:-- SQL statements}\nCOMMIT;",
+    "documentation": "Transaction block",
+    "category": "transactions"
+  },
+  {
+    "label": "ROLLBACK",
+    "kind": "Snippet",
+    "insertText": "BEGIN TRANSACTION;\n\t${1:-- SQL statements}\n\tIF @@ERROR <> 0\n\t\tROLLBACK;\n\tELSE\n\t\tCOMMIT;",
+    "documentation": "Transaction with rollback",
+    "category": "transactions"
+  }
+]

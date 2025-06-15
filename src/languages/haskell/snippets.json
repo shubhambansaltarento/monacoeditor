@@ -1,0 +1,254 @@
+[
+  {
+    "label": "main",
+    "kind": "Snippet",
+    "insertText": "main :: IO ()\nmain = do\n\t${1:-- main code}",
+    "documentation": "Main function",
+    "category": "main"
+  },
+  {
+    "label": "function definition",
+    "kind": "Snippet",
+    "insertText": "${1:functionName} :: ${2:Type -> Type}\n${1:functionName} ${3:args} = ${4:implementation}",
+    "documentation": "Function definition with type signature",
+    "category": "functions"
+  },
+  {
+    "label": "simple function",
+    "kind": "Snippet",
+    "insertText": "${1:functionName} ${2:args} = ${3:implementation}",
+    "documentation": "Simple function definition",
+    "category": "functions"
+  },
+  {
+    "label": "import module",
+    "kind": "Snippet",
+    "insertText": "import ${1:Module}",
+    "documentation": "Import module",
+    "category": "imports"
+  },
+  {
+    "label": "qualified import",
+    "kind": "Snippet",
+    "insertText": "import qualified ${1:Module} as ${2:Alias}",
+    "documentation": "Qualified import with alias",
+    "category": "imports"
+  },
+  {
+    "label": "selective import",
+    "kind": "Snippet",
+    "insertText": "import ${1:Module} (${2:function1, function2})",
+    "documentation": "Import specific functions",
+    "category": "imports"
+  },
+  {
+    "label": "let expression",
+    "kind": "Snippet",
+    "insertText": "let ${1:name} = ${2:value}\nin ${3:expression}",
+    "documentation": "Let expression",
+    "category": "bindings"
+  },
+  {
+    "label": "where clause",
+    "kind": "Snippet",
+    "insertText": "${1:expression}\nwhere\n\t${2:name} = ${3:value}",
+    "documentation": "Where clause",
+    "category": "bindings"
+  },
+  {
+    "label": "case expression",
+    "kind": "Snippet",
+    "insertText": "case ${1:expression} of\n\t${2:pattern1} -> ${3:result1}\n\t${4:pattern2} -> ${5:result2}\n\t_ -> ${6:default}",
+    "documentation": "Case expression",
+    "category": "control"
+  },
+  {
+    "label": "if-then-else",
+    "kind": "Snippet",
+    "insertText": "if ${1:condition}\nthen ${2:trueValue}\nelse ${3:falseValue}",
+    "documentation": "If-then-else expression",
+    "category": "control"
+  },
+  {
+    "label": "guards",
+    "kind": "Snippet",
+    "insertText": "${1:functionName} ${2:args}\n\t| ${3:condition1} = ${4:result1}\n\t| ${5:condition2} = ${6:result2}\n\t| otherwise = ${7:defaultResult}",
+    "documentation": "Function with guards",
+    "category": "control"
+  },
+  {
+    "label": "do notation",
+    "kind": "Snippet",
+    "insertText": "do\n\t${1:action1}\n\t${2:value} <- ${3:action2}\n\treturn ${4:result}",
+    "documentation": "Do notation for monads",
+    "category": "monads"
+  },
+  {
+    "label": "lambda expression",
+    "kind": "Snippet",
+    "insertText": "\\${1:x} -> ${2:expression}",
+    "documentation": "Lambda function",
+    "category": "functions"
+  },
+  {
+    "label": "multi-parameter lambda",
+    "kind": "Snippet",
+    "insertText": "\\${1:x} ${2:y} -> ${3:expression}",
+    "documentation": "Multi-parameter lambda function",
+    "category": "functions"
+  },
+  {
+    "label": "data type",
+    "kind": "Snippet",
+    "insertText": "data ${1:TypeName} = ${2:Constructor1} ${3:Type1}\n\t\t\t | ${4:Constructor2} ${5:Type2}\n\tderiving (${6:Show, Eq})",
+    "documentation": "Algebraic data type definition",
+    "category": "types"
+  },
+  {
+    "label": "simple data type",
+    "kind": "Snippet",
+    "insertText": "data ${1:TypeName} = ${2:Constructor} ${3:Type}\n\tderiving (${4:Show, Eq})",
+    "documentation": "Simple data type definition",
+    "category": "types"
+  },
+  {
+    "label": "type alias",
+    "kind": "Snippet",
+    "insertText": "type ${1:TypeAlias} = ${2:Type}",
+    "documentation": "Type alias definition",
+    "category": "types"
+  },
+  {
+    "label": "newtype",
+    "kind": "Snippet",
+    "insertText": "newtype ${1:TypeName} = ${2:Constructor} ${3:Type}\n\tderiving (${4:Show, Eq})",
+    "documentation": "Newtype definition",
+    "category": "types"
+  },
+  {
+    "label": "type class",
+    "kind": "Snippet",
+    "insertText": "class ${1:ClassName} ${2:a} where\n\t${3:method} :: ${4:Type}",
+    "documentation": "Type class definition",
+    "category": "classes"
+  },
+  {
+    "label": "type class instance",
+    "kind": "Snippet",
+    "insertText": "instance ${1:ClassName} ${2:Type} where\n\t${3:method} = ${4:implementation}",
+    "documentation": "Type class instance",
+    "category": "classes"
+  },
+  {
+    "label": "list comprehension",
+    "kind": "Snippet",
+    "insertText": "[${1:expression} | ${2:x} <- ${3:list}, ${4:condition}]",
+    "documentation": "List comprehension",
+    "category": "lists"
+  },
+  {
+    "label": "list range",
+    "kind": "Snippet",
+    "insertText": "[${1:1}..${2:10}]",
+    "documentation": "List range",
+    "category": "lists"
+  },
+  {
+    "label": "infinite list",
+    "kind": "Snippet",
+    "insertText": "[${1:1}..]",
+    "documentation": "Infinite list",
+    "category": "lists"
+  },
+  {
+    "label": "pattern matching",
+    "kind": "Snippet",
+    "insertText": "${1:functionName} [] = ${2:baseCase}\n${1:functionName} (${3:x}:${4:xs}) = ${5:recursiveCase}",
+    "documentation": "Pattern matching on lists",
+    "category": "patterns"
+  },
+  {
+    "label": "tuple pattern",
+    "kind": "Snippet",
+    "insertText": "${1:functionName} (${2:x}, ${3:y}) = ${4:expression}",
+    "documentation": "Pattern matching on tuples",
+    "category": "patterns"
+  },
+  {
+    "label": "maybe pattern",
+    "kind": "Snippet",
+    "insertText": "case ${1:maybeValue} of\n\tNothing -> ${2:defaultValue}\n\tJust ${3:x} -> ${4:expression}",
+    "documentation": "Pattern matching on Maybe",
+    "category": "patterns"
+  },
+  {
+    "label": "either pattern",
+    "kind": "Snippet",
+    "insertText": "case ${1:eitherValue} of\n\tLeft ${2:error} -> ${3:errorHandling}\n\tRight ${4:value} -> ${5:successHandling}",
+    "documentation": "Pattern matching on Either",
+    "category": "patterns"
+  },
+  {
+    "label": "map function",
+    "kind": "Function",
+    "insertText": "map ${1:function} ${2:list}",
+    "documentation": "Apply function to each element of list",
+    "category": "higher-order"
+  },
+  {
+    "label": "filter function",
+    "kind": "Function",
+    "insertText": "filter ${1:predicate} ${2:list}",
+    "documentation": "Filter list by predicate",
+    "category": "higher-order"
+  },
+  {
+    "label": "fold left",
+    "kind": "Function",
+    "insertText": "foldl ${1:function} ${2:initial} ${3:list}",
+    "documentation": "Left fold over list",
+    "category": "higher-order"
+  },
+  {
+    "label": "fold right",
+    "kind": "Function",
+    "insertText": "foldr ${1:function} ${2:initial} ${3:list}",
+    "documentation": "Right fold over list",
+    "category": "higher-order"
+  },
+  {
+    "label": "function composition",
+    "kind": "Snippet",
+    "insertText": "${1:function1} . ${2:function2}",
+    "documentation": "Function composition",
+    "category": "functions"
+  },
+  {
+    "label": "partial application",
+    "kind": "Snippet",
+    "insertText": "${1:function} ${2:argument}",
+    "documentation": "Partial function application",
+    "category": "functions"
+  },
+  {
+    "label": "module definition",
+    "kind": "Snippet",
+    "insertText": "module ${1:ModuleName}\n\t( ${2:export1}\n\t, ${3:export2}\n\t) where\n\n${4:-- module body}",
+    "documentation": "Module definition with exports",
+    "category": "modules"
+  },
+  {
+    "label": "type signature",
+    "kind": "Snippet",
+    "insertText": "${1:functionName} :: ${2:Type}",
+    "documentation": "Type signature",
+    "category": "types"
+  },
+  {
+    "label": "constraint",
+    "kind": "Snippet",
+    "insertText": "${1:Constraint} ${2:a} => ${3:Type}",
+    "documentation": "Type constraint",
+    "category": "types"
+  }
+]

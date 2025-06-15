@@ -4,65 +4,100 @@
     "icon": "Code",
     "isClientSide": true,
     "monacoId": "javascript",
+    "judge0Id": 63,
     "extensions": [".js", ".jsx", ".mjs", ".es6"],
     "aliases": ["JavaScript", "js", "javascript"],
     "configFile": "javascript/language-configuration.json",
-    "snippetsFile": "javascript/snippets.json",
-    "defaultCodeFile": "javascript/default.js"
+    "snippetsFile": "javascript/snippets.json"
   },
   "typescript": {
     "name": "TypeScript",
     "icon": "Code",
     "isClientSide": true,
     "monacoId": "typescript",
+    "judge0Id": 74,
     "extensions": [".ts", ".tsx"],
     "aliases": ["TypeScript", "ts", "typescript"],
     "configFile": "typescript/language-configuration.json",
-    "snippetsFile": "typescript/snippets.json",
-    "defaultCodeFile": "typescript/default.ts"
+    "snippetsFile": "typescript/snippets.json"
   },
   "python": {
     "name": "Python",
     "icon": "FileText",
     "isClientSide": false,
     "monacoId": "python",
+    "judge0Id": 71,
     "extensions": [".py", ".pyi", ".pyc", ".pyd", ".pyo", ".pyw", ".pyz"],
     "aliases": ["Python", "py", "python"],
     "configFile": "python/language-configuration.json",
-    "snippetsFile": "python/snippets.json",
-    "defaultCodeFile": "python/default.py"
+    "snippetsFile": "python/snippets.json"
   },
   "java": {
     "name": "Java",
     "icon": "Code",
     "isClientSide": false,
     "monacoId": "java",
+    "judge0Id": 62,
     "extensions": [".java"],
     "aliases": ["Java", "java"],
     "configFile": "java/language-configuration.json",
-    "snippetsFile": "java/snippets.json",
-    "defaultCodeFile": "java/default.java"
+    "snippetsFile": "java/snippets.json"
   },
-  "cpp": {
-    "name": "C++",
+  "c": {
+    "name": "C",
     "icon": "Terminal",
     "isClientSide": false,
-    "monacoId": "cpp",
-    "extensions": [".cpp", ".cc", ".cxx", ".hpp", ".hh", ".hxx"],
-    "aliases": ["C++", "Cpp", "cpp"],
-    "configFile": "cpp/language-configuration.json",
-    "snippetsFile": "cpp/snippets.json",
-    "defaultCodeFile": "cpp/default.cpp"
+    "monacoId": "c",
+    "judge0Id": 50,
+    "extensions": [".c", ".h"],
+    "aliases": ["C", "c"],
+    "configFile": "clang/language-configuration.json",
+    "snippetsFile": "clang/snippets.json"
+  },
+  "r": {
+    "name": "R",
+    "icon": "BarChart3",
+    "isClientSide": false,
+    "monacoId": "r",
+    "judge0Id": 80,
+    "extensions": [".r", ".R"],
+    "aliases": ["R", "r"],
+    "configFile": "r/language-configuration.json",
+    "snippetsFile": "r/snippets.json"
   },
   "sql": {
     "name": "SQL",
     "icon": "Database",
     "isClientSide": false,
     "monacoId": "sql",
+    "judge0Id": 82,
     "extensions": [".sql"],
     "aliases": ["SQL", "sql"],
     "configFile": "sql/language-configuration.json",
-    "snippetsFile": "sql/snippets.json",
-    "defaultCodeFile": "sql/default.sql"
+    "snippetsFile": "sql/snippets.json"
+  },
+
+"haskell": {
+    "name": "Haskell",
+    "icon": "Lambda",
+    "isClientSide": false,
+    "monacoId": "haskell",
+    "judge0Id": 61,
+    "extensions": [".hs", ".lhs"],
+    "aliases": ["Haskell", "hs", "haskell"],
+    "configFile": "haskell/language-configuration.json",
+    "snippetsFile": "haskell/snippets.json"
+  },
+  "cpp": {
+    "name": "C++",
+    "icon": "Terminal",
+    "isClientSide": false,
+    "monacoId": "cpp",
+    "judge0Id": 54,
+    "extensions": [".cpp", ".cc", ".cxx", ".hpp", ".hh", ".hxx"],
+    "aliases": ["C++", "Cpp", "cpp"],
+    "configFile": "cpp/language-configuration.json",
+    "snippetsFile": "cpp/snippets.json"
   }
 }
+

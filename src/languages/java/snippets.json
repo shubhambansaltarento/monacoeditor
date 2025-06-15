@@ -7,6 +7,13 @@
     "category": "io"
   },
   {
+    "label": "System.out.print",
+    "kind": "Function",
+    "insertText": "System.out.print(${1:message});",
+    "documentation": "Print to console without newline",
+    "category": "io"
+  },
+  {
     "label": "public static void main",
     "kind": "Snippet",
     "insertText": "public static void main(String[] args) {\n\t${1:// code}\n}",
@@ -14,10 +21,388 @@
     "category": "main"
   },
   {
-    "label": "class",
+    "label": "public class",
     "kind": "Snippet",
     "insertText": "public class ${1:ClassName} {\n\t${2:// class body}\n}",
-    "documentation": "Class definition",
+    "documentation": "Public class definition",
     "category": "classes"
+  },
+  {
+    "label": "private class",
+    "kind": "Snippet",
+    "insertText": "private class ${1:ClassName} {\n\t${2:// class body}\n}",
+    "documentation": "Private class definition",
+    "category": "classes"
+  },
+  {
+    "label": "abstract class",
+    "kind": "Snippet",
+    "insertText": "public abstract class ${1:ClassName} {\n\t${2:// class body}\n}",
+    "documentation": "Abstract class definition",
+    "category": "classes"
+  },
+  {
+    "label": "interface",
+    "kind": "Snippet",
+    "insertText": "public interface ${1:InterfaceName} {\n\t${2:// interface body}\n}",
+    "documentation": "Interface definition",
+    "category": "classes"
+  },
+  {
+    "label": "enum",
+    "kind": "Snippet",
+    "insertText": "public enum ${1:EnumName} {\n\t${2:VALUE1, VALUE2}\n}",
+    "documentation": "Enum definition",
+    "category": "classes"
+  },
+  {
+    "label": "record",
+    "kind": "Snippet",
+    "insertText": "public record ${1:RecordName}(${2:String field}) {\n\t${3:// record body}\n}",
+    "documentation": "Record definition",
+    "category": "classes"
+  },
+  {
+    "label": "public method",
+    "kind": "Snippet",
+    "insertText": "public ${1:void} ${2:methodName}(${3:}) {\n\t${4:// method body}\n}",
+    "documentation": "Public method",
+    "category": "methods"
+  },
+  {
+    "label": "private method",
+    "kind": "Snippet",
+    "insertText": "private ${1:void} ${2:methodName}(${3:}) {\n\t${4:// method body}\n}",
+    "documentation": "Private method",
+    "category": "methods"
+  },
+  {
+    "label": "static method",
+    "kind": "Snippet",
+    "insertText": "public static ${1:void} ${2:methodName}(${3:}) {\n\t${4:// method body}\n}",
+    "documentation": "Static method",
+    "category": "methods"
+  },
+  {
+    "label": "constructor",
+    "kind": "Snippet",
+    "insertText": "public ${1:ClassName}(${2:}) {\n\t${3:// constructor body}\n}",
+    "documentation": "Constructor",
+    "category": "methods"
+  },
+  {
+    "label": "if statement",
+    "kind": "Snippet",
+    "insertText": "if (${1:condition}) {\n\t${2:// code}\n}",
+    "documentation": "If statement",
+    "category": "control"
+  },
+  {
+    "label": "if-else statement",
+    "kind": "Snippet",
+    "insertText": "if (${1:condition}) {\n\t${2:// if code}\n} else {\n\t${3:// else code}\n}",
+    "documentation": "If-else statement",
+    "category": "control"
+  },
+  {
+    "label": "for loop",
+    "kind": "Snippet",
+    "insertText": "for (int ${1:i} = 0; ${1:i} < ${2:length}; ${1:i}++) {\n\t${3:// loop body}\n}",
+    "documentation": "For loop",
+    "category": "control"
+  },
+  {
+    "label": "enhanced for loop",
+    "kind": "Snippet",
+    "insertText": "for (${1:Type} ${2:item} : ${3:collection}) {\n\t${4:// loop body}\n}",
+    "documentation": "Enhanced for loop (for-each)",
+    "category": "control"
+  },
+  {
+    "label": "while loop",
+    "kind": "Snippet",
+    "insertText": "while (${1:condition}) {\n\t${2:// loop body}\n}",
+    "documentation": "While loop",
+    "category": "control"
+  },
+  {
+    "label": "do-while loop",
+    "kind": "Snippet",
+    "insertText": "do {\n\t${1:// loop body}\n} while (${2:condition});",
+    "documentation": "Do-while loop",
+    "category": "control"
+  },
+  {
+    "label": "switch statement",
+    "kind": "Snippet",
+    "insertText": "switch (${1:variable}) {\n\tcase ${2:value1}:\n\t\t${3:// code}\n\t\tbreak;\n\tcase ${4:value2}:\n\t\t${5:// code}\n\t\tbreak;\n\tdefault:\n\t\t${6:// default code}\n}",
+    "documentation": "Switch statement",
+    "category": "control"
+  },
+  {
+    "label": "try-catch",
+    "kind": "Snippet",
+    "insertText": "try {\n\t${1:// code that may throw exception}\n} catch (${2:Exception} e) {\n\t${3:// exception handling}\n}",
+    "documentation": "Try-catch block",
+    "category": "exceptions"
+  },
+  {
+    "label": "try-catch-finally",
+    "kind": "Snippet",
+    "insertText": "try {\n\t${1:// code that may throw exception}\n} catch (${2:Exception} e) {\n\t${3:// exception handling}\n} finally {\n\t${4:// cleanup code}\n}",
+    "documentation": "Try-catch-finally block",
+    "category": "exceptions"
+  },
+  {
+    "label": "try-with-resources",
+    "kind": "Snippet",
+    "insertText": "try (${1:Resource resource = new Resource()}) {\n\t${2:// code using resource}\n} catch (${3:Exception} e) {\n\t${4:// exception handling}\n}",
+    "documentation": "Try-with-resources block",
+    "category": "exceptions"
+  },
+  {
+    "label": "throw exception",
+    "kind": "Snippet",
+    "insertText": "throw new ${1:Exception}(${2:\"message\"});",
+    "documentation": "Throw exception",
+    "category": "exceptions"
+  },
+  {
+    "label": "package declaration",
+    "kind": "Snippet",
+    "insertText": "package ${1:com.example.package};",
+    "documentation": "Package declaration",
+    "category": "imports"
+  },
+  {
+    "label": "import statement",
+    "kind": "Snippet",
+    "insertText": "import ${1:java.util.List};",
+    "documentation": "Import statement",
+    "category": "imports"
+  },
+  {
+    "label": "static import",
+    "kind": "Snippet",
+    "insertText": "import static ${1:java.lang.Math.PI};",
+    "documentation": "Static import statement",
+    "category": "imports"
+  },
+  {
+    "label": "wildcard import",
+    "kind": "Snippet",
+    "insertText": "import ${1:java.util.*};",
+    "documentation": "Wildcard import statement",
+    "category": "imports"
+  },
+  {
+    "label": "annotation",
+    "kind": "Snippet",
+    "insertText": "@${1:AnnotationName}",
+    "documentation": "Annotation",
+    "category": "annotations"
+  },
+  {
+    "label": "annotation with parameters",
+    "kind": "Snippet",
+    "insertText": "@${1:AnnotationName}(${2:parameter = \"value\"})",
+    "documentation": "Annotation with parameters",
+    "category": "annotations"
+  },
+  {
+    "label": "annotation interface",
+    "kind": "Snippet",
+    "insertText": "public @interface ${1:AnnotationName} {\n\t${2:String value() default \"\";\n}",
+    "documentation": "Annotation interface definition",
+    "category": "annotations"
+  },
+  {
+    "label": "lambda expression",
+    "kind": "Snippet",
+    "insertText": "(${1:param}) -> ${2:expression}",
+    "documentation": "Lambda expression",
+    "category": "functional"
+  },
+  {
+    "label": "lambda block",
+    "kind": "Snippet",
+    "insertText": "(${1:param}) -> {\n\t${2:// lambda body}\n\treturn ${3:result};\n}",
+    "documentation": "Lambda expression with block",
+    "category": "functional"
+  },
+  {
+    "label": "generic class",
+    "kind": "Snippet",
+    "insertText": "public class ${1:ClassName}<${2:T}> {\n\t${3:// class body}\n}",
+    "documentation": "Generic class definition",
+    "category": "generics"
+  },
+  {
+    "label": "generic method",
+    "kind": "Snippet",
+    "insertText": "public <${1:T}> ${2:T} ${3:methodName}(${4:T param}) {\n\t${5:// method body}\n\treturn ${6:param};\n}",
+    "documentation": "Generic method",
+    "category": "generics"
+  },
+  {
+    "label": "bounded generic",
+    "kind": "Snippet",
+    "insertText": "public class ${1:ClassName}<${2:T extends ${3:SuperClass}}> {\n\t${4:// class body}\n}",
+    "documentation": "Bounded generic class",
+    "category": "generics"
+  },
+  {
+    "label": "wildcard generic",
+    "kind": "Snippet",
+    "insertText": "List<? extends ${1:Type}> ${2:list}",
+    "documentation": "Wildcard generic type",
+    "category": "generics"
+  },
+  {
+    "label": "assert statement",
+    "kind": "Snippet",
+    "insertText": "assert ${1:condition} : ${2:\"error message\"};",
+    "documentation": "Assert statement",
+    "category": "debugging"
+  },
+  {
+    "label": "synchronized block",
+    "kind": "Snippet",
+    "insertText": "synchronized (${1:object}) {\n\t${2:// synchronized code}\n}",
+    "documentation": "Synchronized block",
+    "category": "concurrency"
+  },
+  {
+    "label": "synchronized method",
+    "kind": "Snippet",
+    "insertText": "public synchronized ${1:void} ${2:methodName}(${3:}) {\n\t${4:// method body}\n}",
+    "documentation": "Synchronized method",
+    "category": "concurrency"
+  },
+  {
+    "label": "instance initializer",
+    "kind": "Snippet",
+    "insertText": "{\n\t${1:// instance initializer code}\n}",
+    "documentation": "Instance initializer block",
+    "category": "initialization"
+  },
+  {
+    "label": "static initializer",
+    "kind": "Snippet",
+    "insertText": "static {\n\t${1:// static initializer code}\n}",
+    "documentation": "Static initializer block",
+    "category": "initialization"
+  },
+  {
+    "label": "array declaration",
+    "kind": "Snippet",
+    "insertText": "${1:int}[] ${2:array} = new ${1:int}[${3:size}];",
+    "documentation": "Array declaration",
+    "category": "arrays"
+  },
+  {
+    "label": "array initialization",
+    "kind": "Snippet",
+    "insertText": "${1:int}[] ${2:array} = {${3:1, 2, 3}};",
+    "documentation": "Array initialization with values",
+    "category": "arrays"
+  },
+  {
+    "label": "instanceof check",
+    "kind": "Snippet",
+    "insertText": "if (${1:object} instanceof ${2:Type}) {\n\t${3:// code}\n}",
+    "documentation": "Instanceof check",
+    "category": "types"
+  },
+  {
+    "label": "new object",
+    "kind": "Snippet",
+    "insertText": "new ${1:ClassName}(${2:})",
+    "documentation": "Create new object",
+    "category": "objects"
+  },
+  {
+    "label": "variable declaration",
+    "kind": "Snippet",
+    "insertText": "${1:Type} ${2:variableName} = ${3:value};",
+    "documentation": "Variable declaration",
+    "category": "variables"
+  },
+  {
+    "label": "var declaration",
+    "kind": "Snippet",
+    "insertText": "var ${1:variableName} = ${2:value};",
+    "documentation": "Local variable type inference",
+    "category": "variables"
+  },
+  {
+    "label": "final variable",
+    "kind": "Snippet",
+    "insertText": "final ${1:Type} ${2:variableName} = ${3:value};",
+    "documentation": "Final variable declaration",
+    "category": "variables"
+  },
+  {
+    "label": "static final constant",
+    "kind": "Snippet",
+    "insertText": "public static final ${1:Type} ${2:CONSTANT_NAME} = ${3:value};",
+    "documentation": "Static final constant",
+    "category": "variables"
+  },
+  {
+    "label": "getter method",
+    "kind": "Snippet",
+    "insertText": "public ${1:Type} get${2:PropertyName}() {\n\treturn ${3:property};\n}",
+    "documentation": "Getter method",
+    "category": "accessors"
+  },
+  {
+    "label": "setter method",
+    "kind": "Snippet",
+    "insertText": "public void set${1:PropertyName}(${2:Type} ${3:property}) {\n\tthis.${3:property} = ${3:property};\n}",
+    "documentation": "Setter method",
+    "category": "accessors"
+  },
+  {
+    "label": "equals method",
+    "kind": "Snippet",
+    "insertText": "@Override\npublic boolean equals(Object obj) {\n\tif (this == obj) return true;\n\tif (obj == null || getClass() != obj.getClass()) return false;\n\t${1:ClassName} other = (${1:ClassName}) obj;\n\treturn ${2:// comparison logic};\n}",
+    "documentation": "Equals method override",
+    "category": "overrides"
+  },
+  {
+    "label": "hashCode method",
+    "kind": "Snippet",
+    "insertText": "@Override\npublic int hashCode() {\n\treturn Objects.hash(${1:fields});\n}",
+    "documentation": "HashCode method override",
+    "category": "overrides"
+  },
+  {
+    "label": "toString method",
+    "kind": "Snippet",
+    "insertText": "@Override\npublic String toString() {\n\treturn \"${1:ClassName}{\" +\n\t\t\"${2:field}=\" + ${2:field} +\n\t\t'}';\n}",
+    "documentation": "ToString method override",
+    "category": "overrides"
+  },
+  {
+    "label": "module declaration",
+    "kind": "Snippet",
+    "insertText": "module ${1:module.name} {\n\t${2:// module directives}\n}",
+    "documentation": "Module declaration",
+    "category": "modules"
+  },
+  {
+    "label": "module requires",
+    "kind": "Snippet",
+    "insertText": "requires ${1:module.name};",
+    "documentation": "Module requires directive",
+    "category": "modules"
+  },
+  {
+    "label": "module exports",
+    "kind": "Snippet",
+    "insertText": "exports ${1:package.name};",
+    "documentation": "Module exports directive",
+    "category": "modules"
   }
 ]

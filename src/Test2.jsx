@@ -13,9 +13,10 @@ const DynamicLanguageEditor = () => {
   const [isInitialLoading, setIsInitialLoading] = useState(true);
   const [loadingProgress, setLoadingProgress] = useState(0);
   const [loadingMessage, setLoadingMessage] = useState('Initializing...');
+  const [outputClass, setOutputClass] = useState('text-green-300');
   const editorRef = useRef(null);
   const monacoRef = useRef(null);
-  const JUDGE0_LOCAL_URL = "http://172.17.21.91:2358"
+  const JUDGE0_LOCAL_URL = "http://192.168.1.66:2358"
 
   // Function to dynamically import language configuration files
   const loadExternalConfigFile = async (filePath) => {
@@ -169,6 +170,15 @@ const DynamicLanguageEditor = () => {
 
     initializeEditor();
   }, []);
+
+  // Example: update outputClass based on output content
+    useEffect(() => {
+    if (output.includes('Error')) {
+        setOutputClass('text-red-400');
+    } else {
+        setOutputClass('text-green-300');
+    }
+    }, [output]);
 
   // Handle regex patterns properly for Monaco Editor
   const processLanguageConfiguration = (config) => {
@@ -324,7 +334,7 @@ const DynamicLanguageEditor = () => {
         executeJavaScript();
       } else {
 
-        let outout = await testJavaHelloWorld(code);
+        let outout = await testJavaHelloWorld(code, currentLang.judge0Id || 62);
         if(outout){
             setOutput(outout);
         }
@@ -470,7 +480,7 @@ const DynamicLanguageEditor = () => {
     </div>
   );
 
-  const testJavaHelloWorld = async (code) => {
+  const testJavaHelloWorld = async (code, judge0Id) => {
 
     console.log('=== Testing Java Hello World ===');
     
@@ -481,19 +491,23 @@ const DynamicLanguageEditor = () => {
         }
     }`;
  
-    const token = await createSubmission(code, 62);
+    const token = await createSubmission(code, judge0Id);
  
  
     if (token) {
         // Wait a bit then get result
         setTimeout(async () => {
             const result = await getSubmissionResult(token);
-            if (result && result.stdout) {
-                console.log('Output:', result?.stdout);
+            console.log('Submission result:', result);
+            console.log('Output:', result?.stdout);
+            if (result && result.stdout && result.success) {
                 if (result?.stdout) {
-                    setOutput(result?.stdout);
+                    setOutput(`Output: ${result?.stdout}`);
                 }
-            }
+            }else {
+                    setOutput(`Error: ${result?.finalOutput}`);
+                    
+                }
         }, 2000);
     }
 
@@ -770,7 +784,7 @@ const parseSubmissionResult = async(result) =>{
           
           <div className="flex-1 p-4 font-mono text-sm overflow-auto">
             {output ? (
-              <pre className="whitespace-pre-wrap text-green-300">{output}</pre>
+              <pre className={`whitespace-pre-wrap ${outputClass}`}>{output}</pre>
             ) : (
               <div className="text-gray-500 italic">
                 Write your code and click "Run Code" to see output here...
