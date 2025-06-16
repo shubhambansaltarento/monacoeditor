@@ -276,7 +276,27 @@ const DynamicLanguageEditor = () => {
         strings: true
       }
     });
-  };
+    
+  
+
+    const handleSelectionChange = () => {
+        const selection = editor.getSelection();
+        const selectedText = editor.getModel().getValueInRange(selection);
+        const startLine = selection.startLineNumber;
+        const endLine = selection.endLineNumber;
+        
+        console.log('Selection changed:', {
+            selectedText,
+            startLine,
+            endLine,
+            selection
+        });
+        
+        // Your custom logic here
+        // For example, you could update state or show selection info
+    };
+    editor.onDidChangeCursorSelection(handleSelectionChange);
+};
 
   // Register completion provider using snippets from external files
   const registerCompletionProvider = (monaco, languageId, snippets) => {
