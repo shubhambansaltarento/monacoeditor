@@ -16,7 +16,7 @@ const DynamicLanguageEditor = () => {
   const [outputClass, setOutputClass] = useState('text-green-300');
   const editorRef = useRef(null);
   const monacoRef = useRef(null);
-  const JUDGE0_LOCAL_URL = "http://192.168.1.66:2358"
+  const JUDGE0_LOCAL_URL = "http://172.17.21.91:2358"
 
   // Function to dynamically import language configuration files
   const loadExternalConfigFile = async (filePath) => {

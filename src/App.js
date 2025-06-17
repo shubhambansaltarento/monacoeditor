@@ -7,6 +7,9 @@ import CodeEditor from './Neweditor';
 // import DynamicLanguageEditor from './DynamicLanguageEditor';
 // import DynamicLanguageEditor from './Test';
 import DynamicLanguageEditor from './Test2';
+import PDFTextExtractor from './Pdf2txt.jsx';
+import ResearchPaperExtractor from './ResearchPaper.jsx';
+import YouTubePlayer from './YouTubeVideo.jsx';
 
 
 
@@ -27,6 +30,9 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <YouTubePlayer />
+      <ResearchPaperExtractor />
+      <PDFTextExtractor />
       <DynamicLanguageEditor />
    {/* <CodeEditor /> */}
    {/* <MonacoCodeCompiler /> */}

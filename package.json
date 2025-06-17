@@ -11,9 +11,11 @@
     "axios": "^1.9.0",
     "lucide-react": "^0.513.0",
     "monaco-languageclient": "^6.4.6",
+    "pdfjs-dist": "^5.3.31",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "react-youtube": "^10.1.0",
     "vscode-ws-jsonrpc": "^1.0.2",
     "web-vitals": "^2.1.4",
     "ws": "^8.18.2"
